@@ -1,5 +1,5 @@
 # WanderLog 1.0.0
-#### made by Mojiboye Emmanuel
+#### A fullstack project made by Mojiboye Emmanuel
 
 #### WanderLog: Dynasty's Personal Journey Mapper!
 
@@ -9,6 +9,9 @@
 * .NET6.0 Framework
 * MS Test
 * RESTful routing
+* Html
+* CSS
+* Javascript
 
 ## Description
 _WanderLog is an ASP.NET MVC6 application Dynasty shares his online travel diary effortlessly. I Documented my adventures, track the places I've been, and relived memories through an interactive and visually appealing platform._

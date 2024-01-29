@@ -10,5 +10,25 @@ namespace WanderLog.Models
         {
             return View();
         }
+
+        [HttpGet("/places/show1")]
+        public ActionResult Showw1()
+        {
+            return View();
+        }
+
+        [HttpGet("/places/show2")]
+        public ActionResult Show2()
+        {
+            return View();
+        }
+
+        [HttpGet("/places/show3")]
+        public ActionResult Show3()
+        {
+            return View();
+        }
+
+        
     }
 }
