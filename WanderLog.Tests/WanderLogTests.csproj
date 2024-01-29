@@ -1,0 +1,20 @@
+<!-- Always ensure Project file name for Test and for normal project are not the same name
+ -->
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <!-- No executable fle for our Unit Tests -->
+  </PropertyGroup>
+  <ItemGroup>
+       <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+        <PackageReference Include="MSTest.TestAdapter" Version="2.2.10" />
+        <PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
+    </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WanderLog\WanderLog.csproj" />
+  </ItemGroup>
+
+</Project>
