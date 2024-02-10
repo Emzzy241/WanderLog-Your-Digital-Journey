@@ -12,7 +12,7 @@ namespace WanderLog.Models
         }
 
         [HttpGet("/places/show1")]
-        public ActionResult Showw1()
+        public ActionResult Show1()
         {
             return View();
         }
