@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.Net.Sdk.Web">
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
+        <!-- <OutputType>Exe</OutputType> -->
         <TargetFramework>net6.0</TargetFramework>
     </PropertyGroup>
 </Project>

@@ -19,6 +19,9 @@ namespace WanderLog
 
             app.UseRouting();
 
+            // After creating the wwwroot and wwwroot/img directory and store images in the img, the below is needed to be able to render images
+            app.UseStaticFiles();
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}"
